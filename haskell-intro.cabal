@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7d811201486fdd0ffb009dd2d06d26d023f43f99767521f24cf245eaa83368b9
+-- hash: fa8334dd8dda5ec5b85dca685e8817689c57e7539f68daa9cf11a19594d23e7f
 
 name:           haskell-intro
 version:        0.1.0.0
@@ -28,6 +28,7 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Polynomials
   other-modules:
       Paths_haskell_intro
   hs-source-dirs:
